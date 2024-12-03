@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"] {
+    border-radius: 10px;
+}
+
+ul li {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #e2e6ea;
+}
+
+ul li .btn {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+ul li .task-text {
+    flex-grow: 1;
+}
+
+ul li .task-text.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}
